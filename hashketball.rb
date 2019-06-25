@@ -123,7 +123,9 @@ def get_players(team)
   team[:players].flatten
 end
 
-get_teaks()
+game_hash.collect do |key|
+  get_players(key)
+end 
 
 def num_points_scored(player_name)
   points
