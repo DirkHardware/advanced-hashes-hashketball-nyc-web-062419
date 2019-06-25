@@ -43,7 +43,6 @@ def game_hash
                     :shoe => 19,
                     :points => 26,
                     :rebounds => 11,
-                    :rebounds => 12,
                     :assists => 6,
                     :steals => 3,
                     :blocks => 8,
@@ -82,7 +81,6 @@ def game_hash
                     :rebounds => 4,
                     :assists => 7,
                     :steals => 22,
-                    :steals => 7,
                     :blocks => 15,
                     :slam_dunks => 10
                 },
@@ -112,7 +110,6 @@ def game_hash
                     :points => 6,
                     :rebounds => 12,
                     :assists => 12,
-                    :steals => 7,
                     :steals => 22,
                     :blocks => 5,
                     :slam_dunks => 12
@@ -123,10 +120,7 @@ def game_hash
 end
 
 def num_points_scored(player_name)
-  if player_name == "Alan Anderson" || player_name == "Reggie Evans" || player_name == "Brook Lopez" || player_name == "Mason Plumlee" || player_name == "Jason Terry"
-    points = game_hash[:home][:players][player_name][:points]
-  elsif  player_name == "Jeff Adrien" || player_name == "Bismack Biyombo" || player_name == "DeSagna Diop" || player_name == "Ben Gordon" || player_name == "Kemba Walker"
-    points = game_hash[:away][:players][player_name][:points]
+  
     # binding.pry
   end
   points
