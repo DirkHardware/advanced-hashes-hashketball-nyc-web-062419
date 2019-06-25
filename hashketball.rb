@@ -189,19 +189,3 @@ end
 def most_points_scored
   "Ben Gordon"
 end
-
-
-# def num_points_scored(player_name)
-#   points = 0
-#   game_hash.collect do |team, category|
-#     #binding.pry
-#     category[:players].collect do |name, stats|
-#       #binding.pry
-#       if name == player_name
-#         points = team[:players][player_name][:points]
-#         #binding.pry
-#       end
-#     end
-#   end
-#   points
-# end
