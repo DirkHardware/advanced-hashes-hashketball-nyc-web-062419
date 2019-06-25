@@ -43,7 +43,6 @@ def game_hash
                     :shoe => 19,
                     :points => 26,
                     :rebounds => 11,
-=======
                     :rebounds => 12,
                     :assists => 6,
                     :steals => 3,
@@ -83,7 +82,6 @@ def game_hash
                     :rebounds => 4,
                     :assists => 7,
                     :steals => 22,
-=======
                     :steals => 7,
                     :blocks => 15,
                     :slam_dunks => 10
@@ -151,9 +149,7 @@ def team_colors(team_name)
   else
     color_array = game_hash[:away][:colors]
   end
-<<<<<<< HEAD
   color_array
-=======
   colors = color_array.join(" ")
 end
 
