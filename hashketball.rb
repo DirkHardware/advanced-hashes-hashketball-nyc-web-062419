@@ -120,9 +120,10 @@ def game_hash
 end
 
 def get_players(team)
-  get players = []
-  get_players << team[:players].flatten
+  team[:players].flatten
 end
+
+game_hash.collect 
 
 def num_points_scored(player_name)
   points
