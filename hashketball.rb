@@ -42,7 +42,11 @@ def game_hash
                     :number => 1,
                     :shoe => 19,
                     :points => 26,
+<<<<<<< HEAD
                     :rebounds => 11,
+=======
+                    :rebounds => 12,
+>>>>>>> ffd2c4d03d9f2caaa3792f92ab83701b43af80e3
                     :assists => 6,
                     :steals => 3,
                     :blocks => 8,
@@ -80,7 +84,11 @@ def game_hash
                     :points => 12,
                     :rebounds => 4,
                     :assists => 7,
+<<<<<<< HEAD
                     :steals => 22,
+=======
+                    :steals => 7,
+>>>>>>> ffd2c4d03d9f2caaa3792f92ab83701b43af80e3
                     :blocks => 15,
                     :slam_dunks => 10
                 },
@@ -110,7 +118,11 @@ def game_hash
                     :points => 6,
                     :rebounds => 12,
                     :assists => 12,
+<<<<<<< HEAD
                     :steals => 7,
+=======
+                    :steals => 22,
+>>>>>>> ffd2c4d03d9f2caaa3792f92ab83701b43af80e3
                     :blocks => 5,
                     :slam_dunks => 12
                 }
@@ -146,7 +158,11 @@ def team_colors(team_name)
   else
     color_array = game_hash[:away][:colors]
   end
+<<<<<<< HEAD
   color_array
+=======
+  colors = color_array.join(" ")
+>>>>>>> ffd2c4d03d9f2caaa3792f92ab83701b43af80e3
 end
 
 def team_names
@@ -156,6 +172,7 @@ def team_names
   team_array
 end
 
+<<<<<<< HEAD
 def player_numbers(team_name)
   numbers = []
   if team_name == "Brooklyn Nets"
@@ -189,6 +206,8 @@ def most_points_scored
 end
 
 
+=======
+>>>>>>> ffd2c4d03d9f2caaa3792f92ab83701b43af80e3
 # def num_points_scored(player_name)
 #   points = 0
 #   game_hash.collect do |team, category|
