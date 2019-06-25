@@ -160,7 +160,6 @@ def team_names
   team_array
 end
 
-<<<<<<< HEAD
 def player_numbers(team_name)
   numbers = []
   if team_name == "Brooklyn Nets"
@@ -194,7 +193,6 @@ def most_points_scored
 end
 
 
-=======
 # def num_points_scored(player_name)
 #   points = 0
 #   game_hash.collect do |team, category|
