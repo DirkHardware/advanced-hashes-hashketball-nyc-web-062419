@@ -123,7 +123,7 @@ def get_players(team)
   team[:players].flatten
 end
 
-game_hash.collect 
+game_hash.collect
 
 def num_points_scored(player_name)
   points
