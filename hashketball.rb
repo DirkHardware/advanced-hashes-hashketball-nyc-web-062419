@@ -125,7 +125,7 @@ end
 
 game_hash.collect do |key|
   get_players(key)
-end 
+end
 
 def num_points_scored(player_name)
   points
