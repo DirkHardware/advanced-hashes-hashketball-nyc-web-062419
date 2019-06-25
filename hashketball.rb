@@ -119,6 +119,11 @@ def game_hash
     }
 end
 
+def get_players(team)
+  get players = []
+  get_players << team[:players].flatten
+end
+
 def num_points_scored(player_name)
 
     # binding.pry
